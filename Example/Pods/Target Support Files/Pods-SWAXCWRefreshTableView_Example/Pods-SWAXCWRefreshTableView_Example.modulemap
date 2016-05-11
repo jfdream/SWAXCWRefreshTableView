@@ -1,0 +1,6 @@
+framework module Pods_SWAXCWRefreshTableView_Example {
+  umbrella header "Pods-SWAXCWRefreshTableView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

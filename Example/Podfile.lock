@@ -1,0 +1,16 @@
+PODS:
+  - SWAXCWRefreshTableView (2.1.0)
+
+DEPENDENCIES:
+  - SWAXCWRefreshTableView (from `../`)
+
+EXTERNAL SOURCES:
+  SWAXCWRefreshTableView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SWAXCWRefreshTableView: 6813dece3b57e35c18485a5f03f70aee77318d5b
+
+PODFILE CHECKSUM: 6c562aca0b9240a76097b7f8b47a91033fce6955
+
+COCOAPODS: 1.0.0

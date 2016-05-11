@@ -1,0 +1,6 @@
+framework module SWAXCWRefreshTableView {
+  umbrella header "SWAXCWRefreshTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
