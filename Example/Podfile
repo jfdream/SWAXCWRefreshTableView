@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWAXCWRefreshTableView_Example' do
+  pod 'SWAXCWRefreshTableView', :path => '../'
+
+  target 'SWAXCWRefreshTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
