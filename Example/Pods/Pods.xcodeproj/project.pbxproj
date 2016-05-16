@@ -42,10 +42,9 @@
 		1793E7A71CE33ABF0007BE4B /* CWRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWRefreshTableView.m; sourceTree = "<group>"; };
 		1793E7A81CE33ABF0007BE4B /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		1793E7A91CE33ABF0007BE4B /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
-		1793E7AA1CE33ABF0007BE4B /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
-		1793E7AB1CE33ABF0007BE4B /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
 		1793E7AC1CE33ABF0007BE4B /* MessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInterceptor.h; sourceTree = "<group>"; };
 		1793E7AD1CE33ABF0007BE4B /* MessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInterceptor.m; sourceTree = "<group>"; };
+		17BA24E71CE994A400D5EE7E /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
 		23EA6D1719E0484DD9B4AFEAE5E7FC3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAED325957782A6D8E7EF76025A529F /* SWAXCWRefreshTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWAXCWRefreshTableView.modulemap; sourceTree = "<group>"; };
 		3373AC6DC166A91E3BFE1A8B365246F9 /* Pods-SWAXCWRefreshTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWAXCWRefreshTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,12 +210,11 @@
 		F5E00888370141CB4DFF333DFF8430A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				17BA24E71CE994A400D5EE7E /* resource.bundle */,
 				1793E7A61CE33ABF0007BE4B /* CWRefreshTableView.h */,
 				1793E7A71CE33ABF0007BE4B /* CWRefreshTableView.m */,
 				1793E7A81CE33ABF0007BE4B /* EGORefreshTableHeaderView.h */,
 				1793E7A91CE33ABF0007BE4B /* EGORefreshTableHeaderView.m */,
-				1793E7AA1CE33ABF0007BE4B /* grayArrow.png */,
-				1793E7AB1CE33ABF0007BE4B /* grayArrow@2x.png */,
 				1793E7AC1CE33ABF0007BE4B /* MessageInterceptor.h */,
 				1793E7AD1CE33ABF0007BE4B /* MessageInterceptor.m */,
 			);
