@@ -45,7 +45,7 @@ typedef enum{
 @protocol EGORefreshTableHeaderDelegate;
 @interface EGORefreshTableHeaderView : UIView {
 	
-	id _delegate;
+	__weak id _delegate;
 	EGOPullRefreshState _state;
     
     EGOPullRefreshDirection _direction;
@@ -58,7 +58,7 @@ typedef enum{
 
 }
 
-@property(nonatomic,strong) id <EGORefreshTableHeaderDelegate> delegate;
+@property(nonatomic,weak) id <EGORefreshTableHeaderDelegate> delegate;
 @property(nonatomic,assign) EGOPullRefreshDirection direction;
 
 - (void)refreshLastUpdatedDate;
