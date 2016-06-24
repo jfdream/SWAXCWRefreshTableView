@@ -127,7 +127,7 @@ typedef enum {
 
 //cell即将被回收的时候回调用此方法
 -(void)tableView:(UITableView *)tableView willNotDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
-
+-(void)tableViewScrollViewEnd:(UITableView*)tableview withDelerate:(BOOL)isDeleratingg;
 -(void)tableViewScrollViewDidScroll:(UITableView *)tableView;
  
 @end

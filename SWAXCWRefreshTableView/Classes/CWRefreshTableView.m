@@ -411,7 +411,12 @@ static const char *reloadTimeKey="-__reloadTimeKey__-";
     }
 }
 
-
+-(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    if([pullDelegate respondsToSelector:@selector(scrollViewDidEndDecelerating:)]){
+        [pullDelegate scrollViewDidEndDecelerating:self];
+    }
+}
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
     
@@ -430,7 +435,9 @@ static const char *reloadTimeKey="-__reloadTimeKey__-";
         [_footerView egoRefreshScrollViewDidEndDragging:scrollView];
         
     }
-    
+    if([pullDelegate respondsToSelector:@selector(tableViewScrollViewEnd:withDelerate:)]){
+        [pullDelegate tableViewScrollViewEnd:self withDelerate:decelerate];
+    }
 }
 
 - (void)showPrepareInfo{
